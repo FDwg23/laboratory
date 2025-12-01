@@ -1,0 +1,1 @@
+$sum = 0; ForEach ($f in Dir C:\Windows\* -include *.bmp, *.jpg -recurse) {$sum +=$f.length}; $sum
